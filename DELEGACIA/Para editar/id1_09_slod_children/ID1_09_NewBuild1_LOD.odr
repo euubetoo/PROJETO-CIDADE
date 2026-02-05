@@ -1,0 +1,49 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler ID1_09_03_LOD
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0550000
+		}
+		terrain_cb_w_4lyr_lod.sps
+		{
+			TextureSampler_layer0 dc_parking_tarmac_03_lod
+			TextureSampler_layer1 dc_parking_tarmac_02_lod
+			TextureSampler_layer2 IM_Concrete09_lod
+			TextureSampler_layer3 im_concrete11_lod
+			BumpSelfShadowAmount 0.3000000
+			MaterialWetnessMultiplier 0.7000000 0.8000000 0.2000000 0.3000000
+			SpecularFalloffMult 32.0000000
+			SpecularIntensityMult 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler ID1_09_ground_LOD
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0550000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			ID1_09_NewBuild1_LOD\ID1_09_NewBuild1_LOD_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -9.7255859 -20.6884804 -4.7719731
+		AABBMax 9.7255859 20.6884804 4.7719731
+		Radius 23.3532
+		Center 0.0000000 0.0000000 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

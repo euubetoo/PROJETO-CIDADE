@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image HW1_22_RSN_NS_Wall_0002IM_Wallpaint01_a.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 8
+	Usage DIFFUSE
+	UsageFlags  NOT_HALF HD_SPLIT
+	ExtraFlags 0
+}

@@ -1,0 +1,58 @@
+Version 165 32
+{
+	Shaders
+	{
+		decal.sps
+		{
+			DiffuseSampler id1_09_newbuild6_o\IM_Wall_Overlay03IM_Wall_Overlay03_a.otx
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		decal.sps
+		{
+			DiffuseSampler id1_09_newbuild6_o\id1_09_tg_signs.otx
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		decal.sps
+		{
+			DiffuseSampler id1_09_newbuild6_o\rnbj_rivgraf_0001rnbj_rivgraf_0001_a.otx
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		decal_tnt.sps
+		{
+			DiffuseSampler id1_09_newbuild6_o\HW1_22_RSN_NS_Wall_0002IM_Wallpaint01_a.otx
+			TintPaletteSampler id1_09_newbuild6_o\id1_09_newbuild6_o_pal.otx
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			TintPaletteSelector 0.0000000 0.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			id1_09_newbuild6_o\id1_09_newbuild6_o_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -24.8530293 -20.7319298 -6671.0874023
+		AABBMax 24.8530293 20.7319298 -6656.2768555
+		Radius 33.2013
+		Center 0.0000000 0.0000000 -6663.6821289
+	}
+	Light null
+	Bound null
+	Joints null
+}

@@ -1,0 +1,50 @@
+Version 165 32
+{
+	Shaders
+	{
+		decal.sps
+		{
+			DiffuseSampler IM_Wall_Overlay03IM_Wall_Overlay03_a
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		decal_tnt.sps
+		{
+			DiffuseSampler HW1_22_RSN_NS_Wall_0002IM_Wallpaint01_a
+			TintPaletteSampler id1_09_newbuild3_o\id1_09_newbuild3_o_pal.otx
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			TintPaletteSelector 0.0000000 0.0000000
+			UseTessellation 0.0000000
+		}
+		decal.sps
+		{
+			DiffuseSampler RNBJ_RivGraf_0002_512x512RNBJ_RivGraf_0002_512x512_A
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			id1_09_newbuild3_o\id1_09_newbuild3_o_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -23.5048809 -20.8125000 -4183.6318359
+		AABBMax 23.5048809 20.8129902 -4174.4111328
+		Radius 31.7318
+		Center 0.0000000 0.0002441 -4179.0214844
+	}
+	Light null
+	Bound null
+	Joints null
+}

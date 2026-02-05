@@ -1,0 +1,81 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler ID1_09_03_LOD
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0550000
+		}
+		default.sps
+		{
+			DiffuseSampler ID1_09_ground_LOD
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0550000
+		}
+		default.sps
+		{
+			DiffuseSampler ID1_09_04_LOD
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0550000
+		}
+		default_terrain_wet.sps
+		{
+			DiffuseSampler ID1_09_ground03_LOD
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.4500000
+		}
+		default.sps
+		{
+			DiffuseSampler id1_17_rntg_corr_0002_LOD
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0550000
+		}
+		decal_tnt.sps
+		{
+			DiffuseSampler smudgy_paintsmudgy_paint
+			TintPaletteSampler ID1_09_NewBuild6_LOD\id1_09_newbuild6_lod_pal.otx
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.0000000
+			TintPaletteSelector 0.0000000 0.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.2000000
+		}
+		spec.sps
+		{
+			DiffuseSampler ID1_09_03_LOD
+			SpecSampler id1_09_03_lod_S
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 40.0000000
+			SpecularFresnel 0.5450000
+			SpecularIntensityMult 0.1000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			ID1_09_NewBuild6_LOD\ID1_09_NewBuild6_LOD_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -24.5639591 -22.4267597 -3515.1464844
+		AABBMax 25.2778301 20.5214806 -3499.4765625
+		Radius 33.8168
+		Center 0.3569355 -0.9526386 -3507.3115234
+	}
+	Light null
+	Bound null
+	Joints null
+}

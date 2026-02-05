@@ -1,0 +1,31 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler ID1_09_03_LOD
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0550000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			ID1_09_Sign_LOD\ID1_09_Sign_LOD_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -6.4184570 0.0000000 -2.8349609
+		AABBMax 6.4184570 0.0000000 2.8349609
+		Radius 7.01667
+		Center 0.0000000 0.0000000 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

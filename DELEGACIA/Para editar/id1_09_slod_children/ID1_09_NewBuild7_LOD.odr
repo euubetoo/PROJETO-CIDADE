@@ -1,0 +1,67 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler ID1_09_03_LOD
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0550000
+		}
+		default.sps
+		{
+			DiffuseSampler ID1_09_ground_LOD
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0550000
+		}
+		decal.sps
+		{
+			DiffuseSampler rsn_mh_ammunation_2_LODrsn_mh_ammunation_2a_LOD
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.2000000
+		}
+		default_tnt.sps
+		{
+			DiffuseSampler OS_ML_SMRoofb_0002_LOD
+			TintPaletteSampler ID1_09_NewBuild7_LOD\id1_09_newbuild7_lod_pal.otx
+			HardAlphaBlend 1.0000000
+			TintPaletteSelector 0.0000000 0.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0550000
+		}
+		spec.sps
+		{
+			DiffuseSampler ID1_09_03_LOD
+			SpecSampler id1_09_03_lod_S
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 40.0000000
+			SpecularFresnel 0.5450000
+			SpecularIntensityMult 0.1000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			ID1_09_NewBuild7_LOD\ID1_09_NewBuild7_LOD_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -25.4355507 -13.8789101 -6.2343750
+		AABBMax 25.4355507 13.8789101 6.2343750
+		Radius 29.6388
+		Center 0.0000000 0.0000000 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

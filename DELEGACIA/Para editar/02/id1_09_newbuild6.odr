@@ -1,0 +1,200 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler IM_wood_panels_09
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec_detail.sps
+		{
+			BumpSampler IM_Wall12_N
+			DetailSampler env_stucco
+			DiffuseSampler IM_Wall12
+			SpecSampler im_wall12_s
+			Bumpiness 1.0000000
+			DetailSettings 3.0000000 1.0000000 30.0000000 15.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.7500000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler TG_ID1_TPAGE_1_N
+			DiffuseSampler TG_ID1_TPAGE_1
+			SpecSampler TG_ID1_TPAGE_1_S
+			Bumpiness 1.0000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 40.0000000
+			SpecularFresnel 0.5450000
+			SpecularIntensityMult 0.1000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler TG_ID1_TPAGE_1_N
+			DiffuseSampler TG_ID1_TPAGE_1
+			SpecSampler TG_ID1_TPAGE_1_S
+			Bumpiness 1.0000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 1.0000000
+			SpecularIntensityMult 0.8000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler RSN_AM_Metal_Bits_N
+			DiffuseSampler RSN_AM_Metal_Bits
+			SpecSampler RSN_AM_Metal_Bits_S
+			Bumpiness 1.0000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler TG_ID1_TPAGE_1_N
+			DiffuseSampler TG_ID1_TPAGE_1
+			SpecSampler TG_ID1_TPAGE_1_S
+			Bumpiness 0.5000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 1.0000000
+			SpecularIntensityMult 0.8000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler RSN_ET_Brick003
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler CMK_Wall_Brick_X1_N
+			DiffuseSampler CMK_Wall_Brick_X1
+			SpecSampler CMK_Wall_Brick_X1_S
+			Bumpiness 0.5000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.7500000
+			SpecularIntensityMult 0.0400000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler RNMO_Wood_01
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec_pxm.sps
+		{
+			BumpSampler ID1_17_RNTG_corr_NG_n
+			DiffuseSampler ID1_17_RNTG_corr_0002
+			HeightSampler ID1_17_RNTG_corr_NG_H
+			SpecSampler ID1_17_RNTG_corr_NG_S
+			Bumpiness 1.0000000
+			HardAlphaBlend 1.0000000
+			HeightBias 0.0150000
+			HeightScale 0.0300000
+			ParallaxSelfShadowAmount 0.0100000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler rsn_id1_21_mh_metal3_NRM
+			DiffuseSampler rsn_id1_21_mh_metal3
+			SpecSampler rsn_id1_21_mh_metal3s
+			Bumpiness 1.0000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 1.0000000
+			SpecularIntensityMult 0.8000000
+			UseTessellation 0.0000000
+		}
+		normal_spec_detail.sps
+		{
+			BumpSampler IM_Wall_concrete32_N
+			DetailSampler env_stucco
+			DiffuseSampler IM_Wall_concrete32_lite
+			SpecSampler IM_Wall_concrete32_S
+			Bumpiness 1.0000000
+			DetailSettings 3.0000000 1.0000000 15.0000000 15.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.7500000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler id1_09_newbuild6\mh_rsn_sc1_03_ledges.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler id1_09_newbuild6\mh_rsn_id2_04_tapage03.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler id1_09_newbuild6\mh_rsn_id2_04_sign.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		decal_tnt.sps
+		{
+			DiffuseSampler id1_09_newbuild6\smudgy_paintsmudgy_paint.otx
+			TintPaletteSampler id1_09_newbuild6\id1_09_newbuild6_pal.otx
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.0000000
+			TintPaletteSelector 0.0000000 0.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler IM_Metal02
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.2000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			id1_09_newbuild6\id1_09_newbuild6_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -25.0844707 -22.1958008 -4950.7705078
+		AABBMax 25.0864296 20.9321308 -4935.7275391
+		Radius 33.9243
+		Center 0.0009785 -0.6318359 -4943.2490234
+	}
+	Light null
+	Bound null
+	Joints null
+}

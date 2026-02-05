@@ -1,0 +1,147 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_detail.sps
+		{
+			BumpSampler IM_Concrete03_N
+			DetailSampler env_stucco
+			DiffuseSampler IM_Concrete03
+			SpecSampler id1_09_ground\im_concrete03_s.otx
+			Bumpiness 1.0000000
+			DetailSettings 3.0000000 1.0000000 15.0000000 15.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.7500000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler IM_Road_edge_001_N
+			DiffuseSampler IM_Road_edge_001
+			SpecSampler IM_Road_edge_001_S
+			Bumpiness 1.5000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 15.0000000
+			SpecularFresnel 0.6500000
+			SpecularIntensityMult 0.9000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler IM_Kerbs03_N
+			DiffuseSampler IM_Kerbs03
+			SpecSampler IM_Kerbs03_S
+			Bumpiness 1.2000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 15.0000000
+			SpecularFresnel 0.6500000
+			SpecularIntensityMult 0.7000000
+			UseTessellation 0.0000000
+		}
+		normal_spec_detail.sps
+		{
+			BumpSampler IM_Sidewalk003_N
+			DetailSampler env_stucco
+			DiffuseSampler IM_Sidewalk003
+			SpecSampler IM_Sidewalk003_S
+			Bumpiness 1.2000000
+			DetailSettings 3.0000000 1.0000000 24.0000000 24.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 15.0000000
+			SpecularFresnel 0.7000000
+			SpecularIntensityMult 0.8000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler id1_09_ground\im_sidewalk008_n.otx
+			DiffuseSampler id1_09_ground\im_sidewalk008.otx
+			SpecSampler id1_09_ground\im_sidewalk008_s.otx
+			Bumpiness 1.2000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 20.0000000
+			SpecularFresnel 0.4000000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+		terrain_cb_w_4lyr_pxm.sps
+		{
+			BumpSampler_layer0 DC_Parking_Tarmac_03_N
+			BumpSampler_layer1 DC_Parking_Tarmac_02_N
+			BumpSampler_layer2 id1_09_ground\im_concrete09_n.otx
+			BumpSampler_layer3 id1_09_ground\im_concrete11_n.otx
+			HeightMapSamplerLayer0 id1_09_ground\nxg_delete_h.otx
+			HeightMapSamplerLayer1 id1_09_ground\nxg_delete_h.otx
+			HeightMapSamplerLayer2 id1_09_ground\nxg_delete_h.otx
+			HeightMapSamplerLayer3 id1_09_ground\nxg_im_concrete11_h.otx
+			TextureSampler_layer0 DC_Parking_Tarmac_03
+			TextureSampler_layer1 DC_Parking_Tarmac_02
+			TextureSampler_layer2 id1_09_ground\im_concrete09.otx
+			TextureSampler_layer3 id1_09_ground\im_concrete11.otx
+			BumpSelfShadowAmount 0.3000000
+			Bumpiness 3.0000000
+			HeightBias0 0.0150000
+			HeightBias1 0.0150000
+			HeightBias2 0.0150000
+			HeightBias3 0.0150000
+			HeightScale0 0.0300000
+			HeightScale1 0.0300000
+			HeightScale2 0.0300000
+			HeightScale3 0.0300000
+			MaterialWetnessMultiplier 0.7000000 0.8000000 0.2000000 0.3000000
+			ParallaxSelfShadowAmount 0.9500000
+			SpecularFalloffMult 32.0000000
+			SpecularIntensityMult 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler id1_09_ground\im_freeway_barrier006_n.otx
+			DiffuseSampler id1_09_ground\im_freeway_barrier006.otx
+			SpecSampler id1_09_ground\im_freeway_barrier006_s.otx
+			Bumpiness 1.2500000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 45.0000000
+			SpecularFresnel 0.7500000
+			SpecularIntensityMult 0.2500000
+			UseTessellation 0.0000000
+		}
+		normal_spec_decal_detail.sps
+		{
+			BumpSampler IM_Road_Damage_03_N
+			DetailSampler env_stucco
+			DiffuseSampler IM_Road_Damage_03
+			SpecSampler IM_Road_Damage_03_S
+			Bumpiness 2.0000000
+			DetailSettings 3.0000000 1.0000000 50.0000000 50.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 20.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.7000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			id1_09_ground\id1_09_ground_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -64.4116211 -73.9770508 -1.2143550
+		AABBMax 64.4541016 73.9770508 1.6318361
+		Radius 98.1133
+		Center 0.0212402 0.0000000 0.2087405
+	}
+	Light null
+	Bound null
+	Joints null
+}
